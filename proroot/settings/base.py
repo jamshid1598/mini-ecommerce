@@ -73,17 +73,10 @@ INSTALLED_APPS = [
     'tinymce',
     'corsheaders',
     'django_extensions',
-    'django_htmx',
 
     # local apps
     'account.apps.AccountConfig',
     'core.apps.CoreConfig',
-    'education.apps.EducationConfig',
-    'employee.apps.EmployeeConfig',
-    'subject.apps.SubjectConfig',
-    'department.apps.DepartmentConfig',
-    'serverside.apps.ServersideConfig',
-    'htmxapp.apps.HtmxappConfig'
 ]
 
 MIDDLEWARE = [
@@ -96,7 +89,6 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 
-    "django_htmx.middleware.HtmxMiddleware",
     'core.middleware.mark_user.WhodidMiddleware',
 ]
 
@@ -214,29 +206,16 @@ REST_FRAMEWORK = {
 
 
 CORS_ALLOWED_ORIGINS = [
-    "http://10.10.115.9:8000",
-    "http://10.10.115.140:3000",
     "http://127.0.0.1:8000",
     "http://127.0.0.1:8080",
     "http://localhost:8080",
     "http://localhost:3000",
     "http://127.0.0.1:9000",
-    "http://apifls.tsue.uz",
-    "http://yuklama.tsue.uz",
-    "https://apifls.tsue.uz",
-    "https://yuklama.tsue.uz"
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    "http://10.10.115.9:8000",
-    "http://10.10.115.140:3000",
     "http://localhost:3000",
     "http://127.0.0.1:3000",
-    "http://apifls.tsue.uz",
-    "http://yuklama.tsue.uz",
-    "https://apifls.tsue.uz",
-    "https://yuklama.tsue.uz"
-
 ]
 
 CORS_ALLOW_METHODS = [

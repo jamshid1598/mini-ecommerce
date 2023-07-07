@@ -3,15 +3,9 @@ from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 from django.utils.translation import gettext_lazy as _
 
 from .models import User
-from import_export.admin import (
-    ImportExportModelAdmin,
-    ImportExportActionModelAdmin,
-)
-from .import_export.resources import UserResource
 
 
-class UserAdmin(BaseUserAdmin, ImportExportModelAdmin, ImportExportActionModelAdmin):
-    resource_class = UserResource
+class UserAdmin(BaseUserAdmin):
 
     fieldsets = (
         (_('User Info'),
