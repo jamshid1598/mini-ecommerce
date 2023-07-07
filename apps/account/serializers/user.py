@@ -13,7 +13,7 @@ class UserSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = User
-        fields = ['id', 'username', 'department', 'role']
+        fields = ['id', 'username', 'role']
 
 
 class UserCreateUpdateSerializer(serializers.ModelSerializer):
@@ -22,7 +22,7 @@ class UserCreateUpdateSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = User
-        fields = ('id', 'username', 'department', 'role', 'password', 'password2',)
+        fields = ('id', 'username', 'role', 'password', 'password2',)
         extra_kwargs = {
             'password': {'write_only': True},
             'password2': {'write_only': True},
@@ -52,7 +52,6 @@ class UserCreateUpdateSerializer(serializers.ModelSerializer):
         password2 = validated_data.pop('password2', None)
 
         instance.username = validated_data.get('username', instance.username)
-        instance.department = validated_data.get('role', instance.department)
         instance.role = validated_data.get('role', instance.role)
 
         if validate_passwords(password, password2, **{'update': True}):

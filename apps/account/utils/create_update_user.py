@@ -13,7 +13,6 @@ def update_create_user(user_validated_data, user=None, **kwargs):
 
     if kwargs.get('update', None) and kwargs['update'] and user:
         user.username = user_validated_data.get('username', user.username)
-        user.department = user_validated_data.get('department', user.department)
         user.role = user_validated_data.get('role', user.role)
 
         if validate_passwords(password, password2, **{'update': True}):

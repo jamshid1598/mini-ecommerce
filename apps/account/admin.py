@@ -12,7 +12,6 @@ class UserAdmin(BaseUserAdmin):
             {'fields': (
                 "username",
                 'role',
-                'department',
             )
         }),
         (_('Status/Groups/Permissions'),

@@ -6,14 +6,12 @@ from rest_framework.exceptions import AuthenticationFailed
 
 ADMIN = 'admin'
 MANAGER = 'manager'
-SUBMANAGER = 'sub-manager'
-TEACHER = 'teacher'
+CLIENT = 'client'
 
 ROLE_CHOICES = (
     (ADMIN, 'Admin'),
     (MANAGER, 'Manager'),
-    (SUBMANAGER, 'Sub-Manager'),
-    (TEACHER, 'Teacher'),
+    (CLIENT, 'Client'),
 )
 
 ALLOWED_HTTP_METHOD = ['GET', 'HEAD', 'OPTIONS', 'TRACE']
@@ -27,7 +25,7 @@ def user_access(role=[]):
             HIERARCHY_ROLES = [
                 [ADMIN],
                 [ADMIN, MANAGER],
-                [ADMIN, MANAGER, TEACHER],
+                [ADMIN, MANAGER, CLIENT],
             ]
 
             if request.method in ALLOWED_HTTP_METHOD and request.user.role in HIERARCHY_ROLES[2]:
