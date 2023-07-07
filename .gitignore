@@ -1,0 +1,8 @@
+.env
+dev.py
+prod.py
+env/
+*.sqlite
+*.sqlite3
+__pycache__/
+*.pyc
