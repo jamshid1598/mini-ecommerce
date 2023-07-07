@@ -5,7 +5,7 @@
 
 ### SETUP PROJECT
 
-`git clone https://github.com/jamshid1598/fls-tsue.git`
+`git clone https://github.com/jamshid1598/mini-ecommerce.git`
 
 
 ###### SETUP USUAL
