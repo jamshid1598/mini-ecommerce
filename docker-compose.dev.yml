@@ -6,15 +6,15 @@ services:
   backend:
     container_name: ecommerce_backend
     build:
-      context: ./ecommerce
+      context: ./
       dockerfile: Dockerfile
     command: python3 manage.py runserver 0.0.0.0:8000
     volumes:
-      - ./ecommerce:/backend
+      - ./:/backend
     ports:
       - 8000:8000
     env_file:
-      - ./backend/.env
+      - ./.env
     depends_on:
       - db
 
