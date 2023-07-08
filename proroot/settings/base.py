@@ -76,7 +76,7 @@ INSTALLED_APPS = [
 
     # local apps
     'account.apps.AccountConfig',
-    'core.apps.CoreConfig',
+    'shop.apps.ShopConfig',
 ]
 
 MIDDLEWARE = [
@@ -89,7 +89,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 
-    'core.middleware.mark_user.WhodidMiddleware',
+    'account.middleware.mark_user.WhodidMiddleware',
 ]
 
 ROOT_URLCONF = 'proroot.urls'
@@ -297,12 +297,10 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # drf-spectacular configuration
 SPECTACULAR_SETTINGS = {
-    'TITLE': 'TSUE Faculty Load System API',
-    'DESCRIPTION': 'The Faculty Load System provides the ability to analyze and '
-                   'report faculty loads against contract requirements. Faculty loads are '
-                   'defined in terms of Equated Load Units (ELUs) which are the "units" '
-                   'faculty earn for teaching courses and for performing non-instructional '
-                   'activities such as department chair and research.',
+    'TITLE': 'Mini-eCommerce API',
+    'DESCRIPTION': 'Mini-eCommerce API Docs. View */swagger/redoc/ link for more api documentation. '
+                'Github repo link https://github.com/jamshid1598/mini-ecommerce.git',
+
 
     'VERSION': '1.0.0',
     'SERVE_INCLUDE_SCHEMA': True,

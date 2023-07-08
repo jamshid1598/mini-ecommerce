@@ -22,16 +22,14 @@ from django.conf.urls.static import static
 # local-files
 from .swagger_urls.drf_spectacular_url import urlpatterns as spectacular_url
 from .swagger_urls.drf_yasg_url import urlpatterns as yasg_url
-from apps.account.urls import auth_urlpatterns
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api-auth/', include('rest_framework.urls')),
-    path('api.auth/', include(auth_urlpatterns)),
+    path('api.auth/', include('account.urls', namespace='account')),
 
-    path('api.v1/', include([
-        path('user/', include('account.urls', namespace='account')),
-    ])),
+    # path('api.v1/', include([
+    #     path('user/', include('account.urls', namespace='account')),
+    # ])),
 ]
 
 urlpatterns += spectacular_url

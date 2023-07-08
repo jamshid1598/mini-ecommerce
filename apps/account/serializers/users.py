@@ -3,9 +3,10 @@ from django.utils.translation import gettext_lazy as _
 
 # rest-framework
 from rest_framework import serializers
+from rest_framework.exceptions import ValidationError
 
 # local-files
-from account.models import User
+from account.models import User, ShopMember
 from account.utils.validate_password import validate_passwords
 
 
@@ -13,7 +14,7 @@ class UserSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = User
-        fields = ['id', 'username', 'role']
+        fields = ['id', 'username',]
 
 
 class UserCreateUpdateSerializer(serializers.ModelSerializer):
@@ -22,7 +23,7 @@ class UserCreateUpdateSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = User
-        fields = ('id', 'username', 'role', 'password', 'password2',)
+        fields = ('id', 'username', 'password', 'password2',)
         extra_kwargs = {
             'password': {'write_only': True},
             'password2': {'write_only': True},
@@ -52,10 +53,26 @@ class UserCreateUpdateSerializer(serializers.ModelSerializer):
         password2 = validated_data.pop('password2', None)
 
         instance.username = validated_data.get('username', instance.username)
-        instance.role = validated_data.get('role', instance.role)
 
         if validate_passwords(password, password2, **{'update': True}):
             instance.set_password(password)
 
         instance.save()
         return instance
+
+
+class ShopMemberSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = ShopMember
+        fields = ['id', 'user', 'role']
+
+    def validate(self, attrs):
+        role = attrs.get('role')
+        user = attrs.get('user')
+        role_filter = ShopMember.objects.filter(role=role).exists()
+        user_filter = ShopMember.objects.filter(user=user).exists()
+
+        if role_filter or user_filter:
+            raise ValidationError(_("Admin already created or this user is granted with different role. Only one admin role is allowed"))
+        return attrs

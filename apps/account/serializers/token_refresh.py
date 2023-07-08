@@ -1,8 +1,6 @@
 # rest-framework-simplejwt
 from rest_framework_simplejwt.serializers import TokenRefreshSerializer
 
-from account.permissions.check_access import MANAGER
-
 
 class CustomTokenRefreshSerializer(TokenRefreshSerializer):
 

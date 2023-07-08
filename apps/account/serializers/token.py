@@ -7,6 +7,5 @@ class CustomTokenObtainPairSerializer(TokenObtainPairSerializer):
         data = super().validate(attrs)
 
         data["username"] = self.user.username
-        data["role"] = self.user.role
 
         return data
