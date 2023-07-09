@@ -8,9 +8,9 @@ from account.models import BaseModel
 
 
 class Category(BaseModel):
-    id = models.URLField(_('ID'), primary_key=True, unique=True, editable=False, default=uuid.uuid4)
+    id = models.UUIDField(_('ID'), primary_key=True, unique=True, editable=False, default=uuid.uuid4)
     parent = models.ForeignKey('self', on_delete=models.CASCADE, blank=True, null=True,
-                               related_name='categories', verbose_name=_('Category'))
+                               related_name='categories', verbose_name=_('Parent Category'))
     name = models.CharField(_('Name'), max_length=255)
     image = models.ImageField(_('Image'), upload_to='category/images/', blank=True, null=True)
 
@@ -30,6 +30,10 @@ class Category(BaseModel):
     def has_product(self):
         return self.products.all().count() > 0
 
+    @property
+    def has_shild_categories(self):
+        return self.categories.all().count() > 0
+
     def __str__(self):
         return self.name
 
@@ -40,7 +44,7 @@ class Category(BaseModel):
 
 
 class Product(BaseModel):
-    id = models.URLField(_('ID'), primary_key=True, unique=True, editable=False, default=uuid.uuid4)
+    id = models.UUIDField(_('ID'), primary_key=True, unique=True, editable=False, default=uuid.uuid4)
     category = models.ForeignKey('shop.Category', on_delete=models.SET_NULL, blank=True, null=True,
                                  related_name='products', verbose_name=_('Category'),)
     name = models.CharField(_('Name'), max_length=255)

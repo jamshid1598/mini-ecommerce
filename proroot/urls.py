@@ -27,9 +27,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api.auth/', include('account.urls', namespace='account')),
 
-    # path('api.v1/', include([
-    #     path('user/', include('account.urls', namespace='account')),
-    # ])),
+    path('api.v1.shop/', include([
+        path('', include('shop.urls', namespace='shop')),
+    ])),
 ]
 
 urlpatterns += spectacular_url
