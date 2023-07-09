@@ -64,6 +64,7 @@ class Attribute(BaseModel):
     id = models.UUIDField(_('Id'), primary_key=True, unique=True, editable=False, default=uuid.uuid4)
     product = models.ForeignKey('shop.Product', on_delete=models.CASCADE, related_name='attributes',
                                 verbose_name=_('Product'))
+    price = models.FloatField(_('Price'), default=0.0)
     name = models.CharField(_('Name'), max_length=255)
     image = models.ImageField(_('Image'), upload_to='attributes/images/', blank=True, null=True)
 

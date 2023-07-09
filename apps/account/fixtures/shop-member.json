@@ -1,0 +1,26 @@
+[
+{
+    "model": "account.shopmember",
+    "pk": "46ad3a45-38dd-4a04-80e4-b57aa6bcbee0",
+    "fields": {
+        "cleated_at": "2023-07-09T18:15:43.390Z",
+        "updated_at": "2023-07-09T18:15:43.390Z",
+        "created_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "updated_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "user": "6dcf4343-67ba-421f-89fc-7b5705fddb9d",
+        "role": "manager"
+    }
+},
+{
+    "model": "account.shopmember",
+    "pk": "a16059ab-39be-40e0-8de4-760ede3fb405",
+    "fields": {
+        "cleated_at": "2023-07-09T04:39:33.697Z",
+        "updated_at": "2023-07-09T04:39:33.697Z",
+        "created_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "updated_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "user": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "role": "admin"
+    }
+}
+]

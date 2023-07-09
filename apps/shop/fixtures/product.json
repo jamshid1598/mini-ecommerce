@@ -1,0 +1,86 @@
+[
+{
+    "model": "shop.product",
+    "pk": "17900fea-4d9a-4c2e-acd6-6677bcff7919",
+    "fields": {
+        "cleated_at": "2023-07-09T18:07:47.333Z",
+        "updated_at": "2023-07-09T18:10:47.101Z",
+        "created_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "updated_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "category": "785e281c-1691-4313-8acf-93ef0a3418fa",
+        "name": "badi kastyum",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "image": ""
+    }
+},
+{
+    "model": "shop.product",
+    "pk": "4787f401-5a9d-468f-9a65-3cbc8ab04466",
+    "fields": {
+        "cleated_at": "2023-07-09T18:05:45.380Z",
+        "updated_at": "2023-07-09T18:05:45.380Z",
+        "created_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "updated_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "category": "8c0ce349-0fe9-42e3-8f2e-e9d45eb8183c",
+        "name": "Nissan",
+        "description": "Nissan Motor Co. Ltd. (Japanese: 日産自動車株式会社, Hepburn: Nissan Jidōsha kabushiki gaisha), often shortened to Nissan,[a] is a Japanese multinational automobile manufacturer headquartered in Nishi-ku, Yokohama, Japan. The company sells its vehicles under the Nissan and Infiniti brands, and formerly the Datsun brand, with in-house performance tuning products (including cars) labelled Nismo. The company traces back to the beginnings of the 20th century, with the Nissan zaibatsu, now called Nissan Group.",
+        "image": ""
+    }
+},
+{
+    "model": "shop.product",
+    "pk": "70f9664c-6631-4164-bb37-cd5cd72ef2a3",
+    "fields": {
+        "cleated_at": "2023-07-09T18:13:06.524Z",
+        "updated_at": "2023-07-09T18:13:22.492Z",
+        "created_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "updated_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "category": "785e281c-1691-4313-8acf-93ef0a3418fa",
+        "name": "Qizaloqlar uchun kiyimlar",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "image": ""
+    }
+},
+{
+    "model": "shop.product",
+    "pk": "7f9423ee-cbcb-40cf-b14c-f63e5d5835ee",
+    "fields": {
+        "cleated_at": "2023-07-09T18:10:09.074Z",
+        "updated_at": "2023-07-09T18:11:02.765Z",
+        "created_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "updated_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "category": "785e281c-1691-4313-8acf-93ef0a3418fa",
+        "name": "bolalar uchun shim",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "image": ""
+    }
+},
+{
+    "model": "shop.product",
+    "pk": "8f393c8b-56c1-46e0-ad87-4d9ce4b9b782",
+    "fields": {
+        "cleated_at": "2023-07-09T18:12:08.085Z",
+        "updated_at": "2023-07-09T18:12:08.085Z",
+        "created_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "updated_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "category": "51ba8402-5896-4a38-811a-032ada597ff9",
+        "name": "Qizlar uchun yozgi ko'ylaklar",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "image": ""
+    }
+},
+{
+    "model": "shop.product",
+    "pk": "d1d685c3-44e7-43f1-aac7-83d324b0a188",
+    "fields": {
+        "cleated_at": "2023-07-09T17:56:02.352Z",
+        "updated_at": "2023-07-09T18:03:54.595Z",
+        "created_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "updated_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "category": "8c0ce349-0fe9-42e3-8f2e-e9d45eb8183c",
+        "name": "BMW",
+        "description": "The third generation of the BMW 3 Series range of compact executive cars is designated under the model code E36, and was produced by the German automaker BMW from 1990 to 2000. The initial models were of the four-door sedan body style, followed by the coupe, convertible, wagon (\"Touring\"), hatchback (\"Compact\"), and the rare four-door convertible Baur TC4 in later years.\r\n\r\nThe E36 was the first 3 Series to be offered in a hatchback body style. It was also the first 3 Series to be available with a six-speed manual transmission (in the 1996 M3), a five-speed automatic transmission, and a four-cylinder diesel engine. The multi-link rear suspension was also a significant upgrade as compared to the previous generations of the 3 Series. All-wheel drive was not available for the E36, unlike the previous (E30) and successive (E46) generations.\r\n\r\nThe E36 was named in Car and Driver magazine's 10Best list for every year it was on sale.[4]\r\n\r\nFollowing the introduction of its successor, the E46 3 Series in 1998, the E36 began to be phased out and was eventually replaced in 1999.",
+        "image": ""
+    }
+}
+]

@@ -13,8 +13,13 @@ class CategoryAdmin(admin.ModelAdmin):
     list_display_links = ('name', 'parent',)
 
 
+class AttributeInline(admin.TabularInline):
+    model = Attribute
+
+
 @admin.register(Product)
 class ProductAdmin(admin.ModelAdmin):
+    inlines = [AttributeInline]
     list_display = ('name', 'category',)
     list_filter = ('name', 'category',)
     list_display_links = ('name', 'category',)
@@ -22,6 +27,6 @@ class ProductAdmin(admin.ModelAdmin):
 
 @admin.register(Attribute)
 class AttributeAdmin(admin.ModelAdmin):
-    list_display = ('name', 'product',)
-    list_filter = ('name', 'product',)
-    list_display_links = ('name', 'product',)
+    list_display = ('product', 'name', 'price')
+    list_filter = ('name', 'product', 'price')
+    list_display_links = ('name', 'product', 'price')

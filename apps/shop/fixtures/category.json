@@ -1,0 +1,93 @@
+[
+{
+    "model": "shop.category",
+    "pk": "0018cde3-c989-4ea9-9413-97ca5ade0c10",
+    "fields": {
+        "cleated_at": "2023-07-09T17:53:36.361Z",
+        "updated_at": "2023-07-09T17:53:36.361Z",
+        "created_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "updated_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "parent": null,
+        "name": "Kiyimlar",
+        "image": ""
+    }
+},
+{
+    "model": "shop.category",
+    "pk": "1d757694-5189-408b-9937-e687f982a199",
+    "fields": {
+        "cleated_at": "2023-07-09T04:39:53.800Z",
+        "updated_at": "2023-07-09T17:54:57.414Z",
+        "created_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "updated_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "parent": "7a240a88-5b25-440b-9374-14e2cecfdbe3",
+        "name": "Yuk Tashish Avtamabillar",
+        "image": ""
+    }
+},
+{
+    "model": "shop.category",
+    "pk": "51ba8402-5896-4a38-811a-032ada597ff9",
+    "fields": {
+        "cleated_at": "2023-07-09T17:54:07.599Z",
+        "updated_at": "2023-07-09T17:54:07.599Z",
+        "created_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "updated_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "parent": "0018cde3-c989-4ea9-9413-97ca5ade0c10",
+        "name": "Ayollar uchun kiyimlar",
+        "image": ""
+    }
+},
+{
+    "model": "shop.category",
+    "pk": "785e281c-1691-4313-8acf-93ef0a3418fa",
+    "fields": {
+        "cleated_at": "2023-07-09T17:54:20.498Z",
+        "updated_at": "2023-07-09T17:54:20.498Z",
+        "created_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "updated_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "parent": "0018cde3-c989-4ea9-9413-97ca5ade0c10",
+        "name": "Bolalar uchun kiyimlar",
+        "image": ""
+    }
+},
+{
+    "model": "shop.category",
+    "pk": "7a240a88-5b25-440b-9374-14e2cecfdbe3",
+    "fields": {
+        "cleated_at": "2023-07-09T17:53:31.913Z",
+        "updated_at": "2023-07-09T17:53:31.913Z",
+        "created_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "updated_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "parent": null,
+        "name": "Tehnika",
+        "image": ""
+    }
+},
+{
+    "model": "shop.category",
+    "pk": "8c0ce349-0fe9-42e3-8f2e-e9d45eb8183c",
+    "fields": {
+        "cleated_at": "2023-07-09T04:38:57.960Z",
+        "updated_at": "2023-07-09T17:54:38.465Z",
+        "created_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "updated_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "parent": "7a240a88-5b25-440b-9374-14e2cecfdbe3",
+        "name": "Yengil Avtamabillar",
+        "image": ""
+    }
+},
+{
+    "model": "shop.category",
+    "pk": "da13cfc6-0b53-4da9-ab66-e1d5eed694b9",
+    "fields": {
+        "cleated_at": "2023-07-09T17:53:56.999Z",
+        "updated_at": "2023-07-09T17:53:56.999Z",
+        "created_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "updated_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "parent": "0018cde3-c989-4ea9-9413-97ca5ade0c10",
+        "name": "Erkaklar Kiyimlari",
+        "image": ""
+    }
+}
+]

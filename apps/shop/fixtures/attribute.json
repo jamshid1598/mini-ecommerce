@@ -1,0 +1,324 @@
+[
+{
+    "model": "shop.attribute",
+    "pk": "0a4678e4-28f5-495f-b76b-07b09b2cd521",
+    "fields": {
+        "cleated_at": "2023-07-09T18:10:09.074Z",
+        "updated_at": "2023-07-09T18:10:09.074Z",
+        "created_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "updated_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "product": "7f9423ee-cbcb-40cf-b14c-f63e5d5835ee",
+        "price": 90000.0,
+        "name": "3 oy",
+        "image": ""
+    }
+},
+{
+    "model": "shop.attribute",
+    "pk": "0b2dac76-9d4a-4017-ace9-cf8ee4984578",
+    "fields": {
+        "cleated_at": "2023-07-09T18:03:54.600Z",
+        "updated_at": "2023-07-09T18:03:54.600Z",
+        "created_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "updated_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "product": "d1d685c3-44e7-43f1-aac7-83d324b0a188",
+        "price": 140000000.0,
+        "name": "e36",
+        "image": ""
+    }
+},
+{
+    "model": "shop.attribute",
+    "pk": "21aa2c3a-406c-4a31-968e-643d7b074efd",
+    "fields": {
+        "cleated_at": "2023-07-09T18:12:08.087Z",
+        "updated_at": "2023-07-09T18:12:08.087Z",
+        "created_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "updated_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "product": "8f393c8b-56c1-46e0-ad87-4d9ce4b9b782",
+        "price": 120000.0,
+        "name": "L",
+        "image": ""
+    }
+},
+{
+    "model": "shop.attribute",
+    "pk": "2efe3065-41f1-43fb-80cf-c8119846bf16",
+    "fields": {
+        "cleated_at": "2023-07-09T18:07:47.333Z",
+        "updated_at": "2023-07-09T18:10:47.102Z",
+        "created_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "updated_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "product": "17900fea-4d9a-4c2e-acd6-6677bcff7919",
+        "price": 90000.0,
+        "name": "3 oy",
+        "image": ""
+    }
+},
+{
+    "model": "shop.attribute",
+    "pk": "417a9ca0-8587-4b7a-952d-5753ebe3af34",
+    "fields": {
+        "cleated_at": "2023-07-09T18:05:45.381Z",
+        "updated_at": "2023-07-09T18:05:45.381Z",
+        "created_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "updated_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "product": "4787f401-5a9d-468f-9a65-3cbc8ab04466",
+        "price": 10000000.0,
+        "name": "nx100",
+        "image": ""
+    }
+},
+{
+    "model": "shop.attribute",
+    "pk": "4a732d82-a898-4ba7-be6d-7889b31504ed",
+    "fields": {
+        "cleated_at": "2023-07-09T18:03:54.600Z",
+        "updated_at": "2023-07-09T18:03:54.600Z",
+        "created_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "updated_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "product": "d1d685c3-44e7-43f1-aac7-83d324b0a188",
+        "price": 100000000.0,
+        "name": "e34",
+        "image": ""
+    }
+},
+{
+    "model": "shop.attribute",
+    "pk": "5869be26-e5c4-44a3-b0a3-ba051dab8dd2",
+    "fields": {
+        "cleated_at": "2023-07-09T18:07:47.334Z",
+        "updated_at": "2023-07-09T18:10:47.102Z",
+        "created_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "updated_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "product": "17900fea-4d9a-4c2e-acd6-6677bcff7919",
+        "price": 90000.0,
+        "name": "9 oy",
+        "image": ""
+    }
+},
+{
+    "model": "shop.attribute",
+    "pk": "62ae68cd-a1e2-4da3-8758-94c08f44cbb9",
+    "fields": {
+        "cleated_at": "2023-07-09T18:13:06.525Z",
+        "updated_at": "2023-07-09T18:13:06.525Z",
+        "created_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "updated_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "product": "70f9664c-6631-4164-bb37-cd5cd72ef2a3",
+        "price": 70000.0,
+        "name": "6 oy",
+        "image": ""
+    }
+},
+{
+    "model": "shop.attribute",
+    "pk": "71549a89-1168-45b9-8555-92abe74d6b45",
+    "fields": {
+        "cleated_at": "2023-07-09T18:12:08.087Z",
+        "updated_at": "2023-07-09T18:12:08.087Z",
+        "created_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "updated_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "product": "8f393c8b-56c1-46e0-ad87-4d9ce4b9b782",
+        "price": 120000.0,
+        "name": "XL",
+        "image": ""
+    }
+},
+{
+    "model": "shop.attribute",
+    "pk": "737d0be2-9bf0-4377-9b2a-64473ea86554",
+    "fields": {
+        "cleated_at": "2023-07-09T18:10:09.075Z",
+        "updated_at": "2023-07-09T18:10:09.075Z",
+        "created_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "updated_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "product": "7f9423ee-cbcb-40cf-b14c-f63e5d5835ee",
+        "price": 90000.0,
+        "name": "6 oy",
+        "image": ""
+    }
+},
+{
+    "model": "shop.attribute",
+    "pk": "77ba98e9-c960-4b9f-97ed-3d682a55cfa3",
+    "fields": {
+        "cleated_at": "2023-07-09T18:10:09.075Z",
+        "updated_at": "2023-07-09T18:10:09.075Z",
+        "created_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "updated_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "product": "7f9423ee-cbcb-40cf-b14c-f63e5d5835ee",
+        "price": 90000.0,
+        "name": "9 oy",
+        "image": ""
+    }
+},
+{
+    "model": "shop.attribute",
+    "pk": "7d124939-b589-407e-a5e0-5243e9c93c81",
+    "fields": {
+        "cleated_at": "2023-07-09T18:05:45.381Z",
+        "updated_at": "2023-07-09T18:05:45.381Z",
+        "created_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "updated_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "product": "4787f401-5a9d-468f-9a65-3cbc8ab04466",
+        "price": 1500000000.0,
+        "name": "GTR4",
+        "image": ""
+    }
+},
+{
+    "model": "shop.attribute",
+    "pk": "821ab026-924e-454a-934c-e34d56f70312",
+    "fields": {
+        "cleated_at": "2023-07-09T18:07:47.334Z",
+        "updated_at": "2023-07-09T18:10:47.103Z",
+        "created_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "updated_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "product": "17900fea-4d9a-4c2e-acd6-6677bcff7919",
+        "price": 90000.0,
+        "name": "12 oy",
+        "image": ""
+    }
+},
+{
+    "model": "shop.attribute",
+    "pk": "873aaac4-5ace-4760-848c-073f6d47f35d",
+    "fields": {
+        "cleated_at": "2023-07-09T18:12:08.086Z",
+        "updated_at": "2023-07-09T18:12:08.086Z",
+        "created_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "updated_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "product": "8f393c8b-56c1-46e0-ad87-4d9ce4b9b782",
+        "price": 120000.0,
+        "name": "M",
+        "image": ""
+    }
+},
+{
+    "model": "shop.attribute",
+    "pk": "8b002ecb-f9ff-4db6-a8b5-e9d2cf6d1e3c",
+    "fields": {
+        "cleated_at": "2023-07-09T18:13:06.525Z",
+        "updated_at": "2023-07-09T18:13:06.525Z",
+        "created_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "updated_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "product": "70f9664c-6631-4164-bb37-cd5cd72ef2a3",
+        "price": 70000.0,
+        "name": "3 oy",
+        "image": ""
+    }
+},
+{
+    "model": "shop.attribute",
+    "pk": "95e86f13-0230-41fb-aabd-260a88d36ae5",
+    "fields": {
+        "cleated_at": "2023-07-09T18:12:08.087Z",
+        "updated_at": "2023-07-09T18:12:08.087Z",
+        "created_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "updated_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "product": "8f393c8b-56c1-46e0-ad87-4d9ce4b9b782",
+        "price": 120000.0,
+        "name": "XXL",
+        "image": ""
+    }
+},
+{
+    "model": "shop.attribute",
+    "pk": "afb0457b-15a9-4e78-aa66-b10d280f3262",
+    "fields": {
+        "cleated_at": "2023-07-09T18:07:47.334Z",
+        "updated_at": "2023-07-09T18:10:47.103Z",
+        "created_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "updated_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "product": "17900fea-4d9a-4c2e-acd6-6677bcff7919",
+        "price": 90000.0,
+        "name": "6 oy",
+        "image": ""
+    }
+},
+{
+    "model": "shop.attribute",
+    "pk": "b143b81c-b271-4f8d-b026-ceeb43a5bbcd",
+    "fields": {
+        "cleated_at": "2023-07-09T18:03:54.597Z",
+        "updated_at": "2023-07-09T18:03:54.597Z",
+        "created_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "updated_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "product": "d1d685c3-44e7-43f1-aac7-83d324b0a188",
+        "price": 70000000.0,
+        "name": "e30",
+        "image": ""
+    }
+},
+{
+    "model": "shop.attribute",
+    "pk": "b83a2515-8976-47a9-96f2-68599c1cc276",
+    "fields": {
+        "cleated_at": "2023-07-09T18:13:06.525Z",
+        "updated_at": "2023-07-09T18:13:06.525Z",
+        "created_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "updated_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "product": "70f9664c-6631-4164-bb37-cd5cd72ef2a3",
+        "price": 70000.0,
+        "name": "9 oy",
+        "image": ""
+    }
+},
+{
+    "model": "shop.attribute",
+    "pk": "bb04bb10-cbed-4c59-b3da-9d8d31e730d7",
+    "fields": {
+        "cleated_at": "2023-07-09T18:10:09.075Z",
+        "updated_at": "2023-07-09T18:10:09.075Z",
+        "created_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "updated_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "product": "7f9423ee-cbcb-40cf-b14c-f63e5d5835ee",
+        "price": 90000.0,
+        "name": "12 oy",
+        "image": ""
+    }
+},
+{
+    "model": "shop.attribute",
+    "pk": "c3f5a52b-2011-4f93-8925-a32d65cd3431",
+    "fields": {
+        "cleated_at": "2023-07-09T18:05:45.381Z",
+        "updated_at": "2023-07-09T18:05:45.381Z",
+        "created_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "updated_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "product": "4787f401-5a9d-468f-9a65-3cbc8ab04466",
+        "price": 1000000000.0,
+        "name": "skyline",
+        "image": ""
+    }
+},
+{
+    "model": "shop.attribute",
+    "pk": "fb78b3b7-912b-489d-b6a3-0579ea3445c7",
+    "fields": {
+        "cleated_at": "2023-07-09T18:12:08.086Z",
+        "updated_at": "2023-07-09T18:12:08.086Z",
+        "created_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "updated_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "product": "8f393c8b-56c1-46e0-ad87-4d9ce4b9b782",
+        "price": 120000.0,
+        "name": "S",
+        "image": ""
+    }
+},
+{
+    "model": "shop.attribute",
+    "pk": "fd0af3f6-be4b-440c-9442-5b3333cab624",
+    "fields": {
+        "cleated_at": "2023-07-09T18:12:08.087Z",
+        "updated_at": "2023-07-09T18:12:08.087Z",
+        "created_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "updated_by": "6574a587-4c17-405e-b928-1bf5b32ad8a5",
+        "product": "8f393c8b-56c1-46e0-ad87-4d9ce4b9b782",
+        "price": 120000.0,
+        "name": "XS",
+        "image": ""
+    }
+}
+]

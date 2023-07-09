@@ -51,6 +51,11 @@
     - _or_
     2. `docker-compose -f docker-compose.dev.yml exec backend python manage.py test`.
 
+## dumpdata and loaddata
+
+- _import data to fixture file_ `docker-compose -f docker-compose.dev.yml run --rm backend python3 manage.py dumpdata <app>.<model> --indent 4 > apps/<app>/fixtures/<filename>.json`
+- _export data from fixture file_ `docker-compose -f docker-compose.dev.yml run --rm backend python3 manage.py loaddata apps/<app>/fixtures/<filename>.json`
+
 
 ### USEFULL DOCKER COMANDS
 - _remove all images, volumes and containers in docker_ `docker system prune`.
